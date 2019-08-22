@@ -1,0 +1,34 @@
+
+body{
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.choice-a, .choice-b, .choice-d, .choice-c{
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+#onscreen-title{
+  color: white;
+  text-align: center;
+
+}
+#pokemon-image{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.score-tracker, .pokemon-name {
+  color: white;
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+}
+.linker{
+  margin-top: 60px;
+  font-size: 25px; 
+  text-align: right;
+}

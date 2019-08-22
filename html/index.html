@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mc_style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+    <title>Who's that Pokemon?</title>
+
+  </head>
+  <body>
+
+    <h1 id="onscreen-title">Who's That Pokemon?</h1>
+    <img src="http://www.pngmart.com/files/2/Pikachu-PNG-Photos.png" id = "pokemon-image">
+
+      <p class = "score-tracker"></p>
+      <p class="pokemon-name"></p>
+
+
+    <div class="choices" onclick="verify(0)">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" class="pokeball-img">
+      <p class = "choice-a"></p>
+    </div>
+    <div class="choices" onclick="verify(1)">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" class="pokeball-img">
+      <p class = "choice-b"></p>
+    </div>
+    <div class="choices" onclick="verify(2)">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" class="pokeball-img">
+      <p class = "choice-c"></p>
+    </div>
+    <div class="choices" onclick="verify(3)">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" class="pokeball-img">
+      <p class = "choice-d"></p>
+    </div>
+
+
+<!--    <div class="button">
+      <button type="button" name="button" onclick="newPokemon()">New Pokemon!</button>
+    </div>
+-->
+
+    <div class="linker">
+      <a href="pokedex.html">Pokedex</a>
+    </div>
+    <script src="../js/pokemon_selector.js"></script>
+  </script><!-- i don't think this script tag is for anything but just gonna leave it there e-->
+  </body>
+</html>

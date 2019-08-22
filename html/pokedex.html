@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+
+    <link rel="stylesheet" href="../css/pokedex.css">
+
+  </head>
+  <body>
+    <div class="buttons">
+      <button type="button" class = "previous"  name="previous" onclick="previous()">Previous</button>
+      <button type="button" class = "next" name="next" onclick="next()">Next</button>
+    </div>
+    <div class="search">
+      <input type="search" id="search"
+       placeholder="Enter Index or Name">
+       <button class = "search-button" onclick="search()">Search</button>
+    </div>
+
+
+    <table class = "data-table">
+      <tr>
+        <td class = "name">Name: </td>
+      </tr>
+      <tr>
+        <td><img src="https://img.pokemondb.net/sprites/x-y/normal/bulbasaur.png" id = "mon-pic"></td>
+      </tr>
+      <tr>
+        <td class = "type">
+        Types:   <img id = "type-img-1" src="" alt=""> <img id = "type-img-2" src = "">
+        </td>
+        <!--<td class = "type">Type: </td>
+        <td class = "type-image">
+          <img src="https://vignette.wikia.nocookie.net/pokemon/images/e/ed/Type_Water.gif/revision/latest?cb=20180304082247" alt="">
+        </td>
+        <td class = "type-image">
+          <img src="https://vignette.wikia.nocookie.net/pokemon/images/e/ed/Type_Water.gif/revision/latest?cb=20180304082247" alt="">
+        </td>-->
+      </tr>
+    <!--  <tr>
+        <td class = "summary">Summary: </td>
+      </tr>
+-->
+<tr>
+        <tr>
+          <td class = >Stats: </td>
+        </tr>
+        <tr>
+          <td class = "Speed">Speed: </td>
+        </tr>
+        <tr>
+          <td class = "spec-def">Special Defense: </td>
+        </tr>
+        <tr>
+          <td class = "spec-attack">Special Attack: </td>
+        </tr>
+        <tr>
+          <td class = "defense">Defense: </td>
+        </tr>
+        <tr>
+          <td class = "attack">Attack: </td>
+        </tr>
+        <tr>
+          <td class = "HP">HP: </td>
+        </tr>
+
+    </table>
+
+    <div class="linker">
+      <a href="index.html">Who's That Pokemon</a>
+    </div>
+    <script src="../js/pokedex.js"></script>
+  </body>
+</html>

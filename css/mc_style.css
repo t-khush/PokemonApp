@@ -1,0 +1,30 @@
+.choices{
+  margin-bottom: 0.2rem;
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+
+}
+.pokeball-img{
+  padding-left: 0.5rem;
+  width: 50px;
+}
+.choices:hover{
+  cursor: pointer;
+  box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+
+  }
+
+.choice-a, .choice-b, .choice-c, .choice-d{
+  padding-left: 1.5rem;
+}
+/*.correct{
+  color: ##55d750;
+}
+.incorrect{
+  color: #ea583e;
+}
+*/
