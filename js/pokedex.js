@@ -119,7 +119,7 @@ function next(){
   i++;
   if(i==808){
     alert("You cannot go any further");
-    i=808;
+    i=807;
   }
   pokemon_index= api_key+i;
   fetch(pokemon_index)
@@ -182,7 +182,7 @@ function search(){
         type_img_1.src=typeLinker(searchIndex(data.types[0].type.name, pokemonTypes));
         type_img_2.src=typeLinker(searchIndex(data.types[1].type.name, pokemonTypes));
       }
-       i = data.id; 
+       i = data.id;
 
       speed.textContent= "Speed: " +data.stats[0].base_stat;
       special_defense.textContent = "Special Defense: "+data.stats[1].base_stat;
